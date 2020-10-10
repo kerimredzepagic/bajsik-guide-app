@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.product{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.product img{
+    height: auto;
+    width: 80%;
+    object-fit: cover;
+    margin: auto auto 10px auto;
+}
+
+.product .product-text{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: left;
+}
+
+.product .product-text .product-text-h5{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    width: 75%;
+    display: flex;
+    justify-content: left;
+}
+
+.product .product-text .product-text-button{
+    width: 20%;
+    margin: auto;
+    background: linear-gradient(32deg, #640505, #ff0000);
+    background-size: 200% 200%;
+    animation: kartica 4s ease infinite, glow 4s ease-in-out infinite;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.product .product-text .product-text-button:hover{
+    width: 20%;
+    margin: auto;
+    background: linear-gradient(32deg, #008cff, #0051ff);
+    background-size: 200% 200%;
+    animation: kartica 4s ease infinite, glow-blue 4s ease-in-out infinite;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.product .product-text .product-text-button h2{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
